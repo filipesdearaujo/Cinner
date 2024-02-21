@@ -39,6 +39,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C4242CE92B85894200040838 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C47EF1C82B8178C500E11C18 /* Assets.xcassets */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C4242CEA2B85894E00040838 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C47EF1C52B8178C400E11C18 /* Main.storyboard */,
+				C47EF1CA2B8178C500E11C18 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C4242CEB2B85895500040838 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C47EF1BF2B8178C400E11C18 /* AppDelegate.swift */,
+				C47EF1C12B8178C400E11C18 /* SceneDelegate.swift */,
+				C4ECEA542B82D6380097F3EE /* PeopleViewController.swift */,
+				C4ECEA562B82D7210097F3EE /* WelcomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		C47EF1B32B8178C400E11C18 = {
 			isa = PBXGroup;
 			children = (
@@ -58,13 +86,9 @@
 		C47EF1BE2B8178C400E11C18 /* Cinner */ = {
 			isa = PBXGroup;
 			children = (
-				C47EF1BF2B8178C400E11C18 /* AppDelegate.swift */,
-				C47EF1C12B8178C400E11C18 /* SceneDelegate.swift */,
-				C4ECEA542B82D6380097F3EE /* PeopleViewController.swift */,
-				C4ECEA562B82D7210097F3EE /* WelcomeViewController.swift */,
-				C47EF1C52B8178C400E11C18 /* Main.storyboard */,
-				C47EF1C82B8178C500E11C18 /* Assets.xcassets */,
-				C47EF1CA2B8178C500E11C18 /* LaunchScreen.storyboard */,
+				C4242CEB2B85895500040838 /* Controller */,
+				C4242CEA2B85894E00040838 /* View */,
+				C4242CE92B85894200040838 /* Model */,
 				C47EF1CD2B8178C500E11C18 /* Info.plist */,
 			);
 			path = Cinner;
